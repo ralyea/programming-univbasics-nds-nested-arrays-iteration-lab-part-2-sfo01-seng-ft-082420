@@ -10,9 +10,9 @@ while row_index < src.count do
     end
     element_index += 1
   end 
-  
+  outer_results << longest_string_element
+  row_index += 1
   
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
-
 end
